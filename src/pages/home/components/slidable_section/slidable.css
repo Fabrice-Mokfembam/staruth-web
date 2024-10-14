@@ -1,0 +1,73 @@
+.container.home-slidable-section {
+  background: var(--on-black, #232323);
+  padding-inline: 0px;
+  overflow: hidden;
+}
+
+.home-slidable-section > h1 {
+  color: var(--orange-orange-light, #f5c477);
+  width: 100%;
+  margin: 0;
+}
+
+.home-slidable-section-slider {
+  display: flex;
+  gap: 18px;
+  overflow-x: auto;
+  padding: 1rem 2rem !important;
+  scrollbar-width: thin; /* For Firefox */
+}
+
+/* For WebKit browsers (Chrome, Safari) */
+.home-slidable-section-slider::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+  height: 8px; /* Height of the scrollbar */
+}
+
+.home-slidable-section-slider::-webkit-scrollbar-track {
+  background: transparent; /* Background of the track */
+}
+
+.home-slidable-section-slider::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.5); /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners */
+}
+
+.home-slidable-section-slider::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.8); /* Darker on hover */
+}
+
+.home-slidable-section-slider::-webkit-scrollbar-corner {
+  background: transparent; /* Background of the scrollbar corner */
+}
+
+.home-slidable-section-slides {
+  min-width: 300px;
+  width: 350px;
+  max-width: 400px;
+  flex: 1;
+
+  padding: 18px;
+  border-radius: var(--bd-radius-32, 32px);
+  height: 540px;
+  background-color: var(--sf-on-pm-black);
+}
+
+.home-slidable-section-slides > div {
+  display: flex;
+  align-items: center;
+  filter: grayscale(0.9);
+  height: 100%;
+  padding: 18px;
+  border-radius: 32px;
+  background-image: url(https://us.123rf.com/450wm/mklrnt/mklrnt2001/mklrnt200113974/138250650-young-handsome-african-businessman-against-gray-background.jpg?ver=6);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.home-slidable-section-slides p {
+  padding: var(--Space-300, 12px) 20px;
+  border-radius: var(--bd-radius-32, 32px);
+
+  background: var(--primary-white, #fefefe);
+}

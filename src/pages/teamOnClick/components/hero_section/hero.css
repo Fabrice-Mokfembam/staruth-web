@@ -1,0 +1,177 @@
+.team-onclick-hero-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px;
+  gap: 125px;
+  padding-top: 200px;
+}
+
+.team-onclick-hero-section * {
+  font-family: var(--font-family);
+}
+
+.team-onclick-hero-section-left header {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.team-onclick-hero-section header h1 {
+  color: #fff;
+  font-size: 76px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: -1.52px;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.team-onclick-hero-section header h3 {
+  color: #fff;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+}
+
+.team-onclick-hero-section-left {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.team-onclick-hero-section-left > span {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.team-onclick-hero-section-left > p {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.team-onclick-hero-section-left > header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.team-onclick-hero-section-right-socials {
+  display: flex;
+  gap: 30px;
+}
+
+.team-onclick-hero-section-right-socials img {
+  height: 44px;
+  width: 44px;
+}
+
+.team-onclick-hero-section-right-socials img:hover {
+  transform: scale(1.2);
+}
+
+.team-onclick-hero-section-right img {
+  width: 100%;
+  border-radius: 16px;
+  filter: grayscale(0.9);
+}
+.team-onclick-hero-section-right-Interests {
+  color: white;
+  margin-top: 1rem;
+}
+
+.team-onclick-hero-section-right-Interests ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.team-onclick-hero-section-right-Interests li {
+  list-style: disc;
+  margin-left: 16px;
+}
+
+/* media queries */
+
+/* For screens with a maximum width of 1200px */
+@media (max-width: 1200px) {
+  .team-onclick-hero-section {
+    padding: 40px;
+    padding-top: 160px;
+    gap: 80px;
+  }
+}
+
+/* For screens with a maximum width of 992px */
+@media (max-width: 992px) {
+  .team-onclick-hero-section {
+    grid-template-columns: 1fr;
+    padding: 20px;
+    padding-top: 120px;
+    gap: 40px;
+  }
+  .team-onclick-hero-section-left > header {
+    gap: 10px;
+  }
+  .team-onclick-hero-section-left > header h1 {
+    font-size: 60px;
+  }
+  .team-onclick-hero-section-left > header h3 {
+    font-size: 45px;
+  }
+  .team-onclick-hero-section-left > p {
+    font-size: 16px;
+  }
+}
+
+/* For screens with a maximum width of 768px */
+@media (max-width: 768px) {
+  .team-onclick-hero-section {
+    padding: 25px;
+    padding-top: 80px;
+    gap: 20px;
+  }
+
+  .team-onclick-hero-section-left > header {
+    gap: 5px;
+  }
+  .team-onclick-hero-section-left > header h1 {
+    font-size: 55px;
+  }
+  .team-onclick-hero-section-left > header h3 {
+    font-size: 35px;
+  }
+  .team-onclick-hero-section-left > p {
+    font-size: 14px;
+  }
+}
+
+/* For screens with a maximum width of 480px */
+@media (max-width: 480px) {
+  .team-onclick-hero-section {
+    padding: 15px;
+    gap: 10px;
+  }
+
+  .team-onclick-hero-section-left > header {
+    gap: 2px;
+  }
+  .team-onclick-hero-section-left > header h1 {
+    font-size: 40px;
+  }
+  .team-onclick-hero-section-left > header h3 {
+    font-size: 20px;
+  }
+  .team-onclick-hero-section-left > p {
+    font-size: 12px;
+  }
+}
