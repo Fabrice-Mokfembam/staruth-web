@@ -1,4 +1,4 @@
-import logo from '../../assets/images/staruth1.png';
+import logo from '../../assets/images/STARUTH.png';
 import facebook from '../../assets/icons/Facebook.svg';
 import linkedIn from '../../assets/icons/linkedin.svg';
 import github from '../../assets/icons/github.svg';
